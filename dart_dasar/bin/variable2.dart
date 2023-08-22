@@ -72,16 +72,16 @@ void main() {
   print(intFormDouble);
 
   var stringFromInt = inputInt.toString();
-  var StringFromDouble = inputDouble.toString();
+  var stringFromDouble = inputDouble.toString();
 
   print(stringFromInt);
-  print(StringFromDouble);
+  print(stringFromDouble);
 
   // Konversi Boolean to String
   var inputanString = 'true';
   var inputBool = inputanString == 'true';
   print(inputBool);
 
-  var StringFromBool = inputBool.toString();
-  print(StringFromBool);
+  var stringFromBool = inputBool.toString();
+  print(stringFromBool);
 }
